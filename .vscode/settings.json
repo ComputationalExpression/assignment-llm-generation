@@ -1,0 +1,25 @@
+{
+  "github.copilot.enable": {
+    "plaintext": false,
+    "markdown": false,
+    "tests": false,
+  },
+  "files.associations": {
+    "tests/*": "tests"
+  },
+  "chat.agent.enabled": true,
+  "files.exclude": {
+    "**/.*": true,
+    "gatorgrade.yml": true
+  },
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  },
+  "[python]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  },
+  "editor.tabSize": 4,
+  "terminal.integrated.commandsToSkipShell": ["aichat.newchataction"]
+}
