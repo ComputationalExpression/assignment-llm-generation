@@ -18,8 +18,16 @@
   },
   "[python]": {
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 80
+    "editor.wordWrapColumn": 80,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
   },
   "editor.tabSize": 4,
-  "terminal.integrated.commandsToSkipShell": ["aichat.newchataction"]
+  "terminal.integrated.commandsToSkipShell": ["aichat.newchataction"],
+  "recommendations": [
+    "github.copilot",
+    "code-tour.tour",
+    "ms-python.python",
+    "ms-python.black-formatter"
+  ]
 }
